@@ -1,0 +1,36 @@
+{
+  "name": "voice-chat-llm",
+  "version": "1.0.0",
+  "description": "A web application that enables voice chat with LLMs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup": "mkdir -p public/uploads"
+  },
+  "keywords": [
+    "voice",
+    "chat",
+    "llm",
+    "ai",
+    "speech-to-text",
+    "text-to-speech"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.2",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
